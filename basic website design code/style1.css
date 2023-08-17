@@ -1,0 +1,270 @@
+.navbar {
+    font-size: 20px;
+}
+.navbar .container-fluid{
+padding-left: 20px;
+
+}
+a {
+    text-decoration: none;
+}
+.navbar .navbar-brand{
+    font-size: 34px;
+    padding-right: 20px;
+    font-weight: 500;
+    
+}
+h2{
+    color: #212529;
+}
+
+.btn {
+    color: #212529;
+    background-color: rgb(255, 255, 255);
+    border-color: #5bc2c2
+}
+
+section{
+    padding-top: 50px;
+}
+.row1 .col-7 {
+padding-left: 20px;
+}
+.card2 {
+    padding-right: 20px;
+}
+.card2 .list1{
+    text-align: left;
+}
+.card2 .list1 .list2 {
+ font-size: 28px;
+ font-weight: 700;
+}
+
+.card2 .list1 .list3 {
+    font-size: medium;
+    
+   }
+
+.card2 .card-header {
+    font-size: 30px;
+}
+
+
+
+.card1 {
+    text-align: left;
+    
+}
+
+.card1 .list2{
+    font-weight: 600;
+    font-size: 15px;
+}
+.card1 .list3{
+    font-weight: 350;
+    font-size: 12px;
+}
+
+.col3 .card-body{
+    background: linear-gradient(180deg, #202A2E 0%, #17292C 100%);
+    text-align: left;
+}
+.col3 .card-body .card-title {
+    color: #FEFDFB;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    font-size: 15px;
+}
+.col3 .card-body .card-text{
+    color: #cfcecd;
+    font-weight: 400;
+    font-size: 13px;
+    width: 280px;
+}
+
+
+#blog .container-xl {
+    padding: 30px;
+    border: 0px;
+}
+#blog .carousel-control-prev .carousel-control-prev-icon {
+    position: absolute;
+    left: 0%;
+}
+
+#blog .carousel-control-next .carousel-control-next-icon {
+    position: absolute;
+    right: 0%;
+}
+
+#blog2 .carousel-control-prev .carousel-control-prev-icon {
+    position: absolute;
+    left: -30%;
+}
+
+#blog2 .carousel-control-next .carousel-control-next-icon {
+    position: absolute;
+    right: -30%;
+}
+
+#event .container-fluid{
+    padding: 10px;
+}
+
+#event .aboutdeatils{
+    padding: 8px;
+}
+.card3 .card-body .card-text {
+    padding-left: 20px;
+    padding-right: 60px;
+    text-align: justify;
+    font-size: 19px;
+}
+.card3 .card-body .card-title{
+    padding-top: 25px;
+    padding-bottom: 45px;
+    font-size: 28px;
+}
+.card3 {
+    background:linear-gradient(180deg, #202A2E 0%, #17292C 100%);
+    color: #cfcecd;
+    border-radius: 20px;
+    
+}
+.card3 .col-md-4{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+
+.card3 button{
+    background-color:  #FEFDFB; 
+    border-radius: 20px; 
+    border: 0px; 
+    color:  #212529;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.card4 svg{
+    background-color:#212529; 
+    color: #FEFDFB;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+  }
+
+
+  .container3 .card5{
+    background: #212529;
+    color:#cfcecd;
+    border-radius: 0px;
+
+  }
+  
+  .container3 .card5 .col-4{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .con
+
+.container3 .card5 .contactcol ul{
+    padding-left: 60px;padding: 40px; font-size:large;
+}
+  .container3 .card5 .colform {
+    
+    padding-top:40px;
+    font-family: Liberation Sans;
+    font-size: 19px;
+    letter-spacing: 0.04em;
+    
+  }
+  .container3 .card5 .row
+  {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  @media (max-width: 991.98px) {
+        .container3 .card5 .col-4{
+            font-size: 12px;
+        }
+        .container3 .card5 .colform{
+            font-size: 14px;
+            
+         }
+        .container3 input{
+            width: 100%;
+        }
+        .container3 textarea{
+            width: 100%;
+        }
+        .container3 .card5 svg{
+            width: 18px;
+            height: 18px;
+          }
+
+          .card3 .card-body .card-text {
+            padding-left: 20px;
+            padding-right: 30px;
+            text-align: justify;
+            font-size: 19px;
+        }
+        #blog2 .card-text{
+            width: 70%;
+        }
+        #blog2 .carousel-control-prev .carousel-control-prev-icon {
+            position: absolute;
+            left: -50%;
+        }
+        
+        #blog2 .carousel-control-next .carousel-control-next-icon {
+            position: absolute;
+            right: -50%;
+        }
+
+        #news .card1 .list3{
+            font-weight: 350;
+            font-size: 12px;
+        }
+    }
+        
+  
+  
+  .container3 input{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:#FEFDFB;
+    border: #f1f1f1;
+  }
+  .container3 textarea{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:auto ;
+    border: #f1f1f1;
+    background-color: #FEFDFB;
+  }  
+
+  .container3 input[type=submit]{
+        border-radius: 10px;  
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+  }
+
+  .container3 input[type=submit]:hover{
+    background-color: #aaaaaa;
+    color: #17292C;
+  }
+
+  .container3 .card{
+    padding: 0px;
+    text-align: left;
+  }
